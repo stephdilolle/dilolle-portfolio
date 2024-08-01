@@ -36,3 +36,26 @@ body {
         .card p {
             margin: 10px 0;
         }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: left; /* Center the content */
+        }
+        .card img {
+            width: 100%;
+            max-width: 400px; /* Max width of the images */
+            height: 250px; /* Fixed height for consistency */
+            object-fit: cover; /* Scale image properly */
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .card img:hover {
+            transform: scale(1.05);
+        }
+        .card-content {
+            padding: 10px 0;
+        }
