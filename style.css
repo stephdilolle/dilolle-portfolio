@@ -61,3 +61,12 @@ body {
 .card-content {
     padding: 10px 0;
 }
+
+.self img {
+    width: 300px;
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+    
